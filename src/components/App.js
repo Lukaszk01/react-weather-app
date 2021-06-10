@@ -77,7 +77,7 @@ class App extends React.Component {
   handleSearchCity = e => {
     e.preventDefault();
     const { value } = this.state;
-    const APIkey = 'ce578ff456c9616b5c88ceadb96e2f18';
+    const APIkey = process.env.REACT_APP_API_KEY;
     
     // const APIkey = process.env.REACT_APP_API_KEY;
 
